@@ -1,0 +1,67 @@
+#tuple
+cricket_players=("dhoni","sachin","virat",)
+print(cricket_players)
+
+#creator and accessing tuple
+num1=(1,2,3,4,5)
+print(num1)
+num2=(2,3,4,[5,6,7,8])
+print(num2[:2])
+print(num2[-2])
+num3=(9,0)
+a,b=num3
+print(a)
+print(b)
+
+#operators in tuple
+a=(34,43)
+b=("ramcharan","str","harish kalyan")*3
+print(a+b)
+print(b)
+
+#slicing and indexing tuple
+a=(1,2,3,4,5,(23,32,34,43))
+print(a[0:5])
+print(a[-5])
+print(a[-3:-1])
+print(a[-3:0])
+print(a[-3])
+print(a[-2:5])
+print(a[:2])
+
+#deleting tuples
+name=("q","e","r","w","y")
+del (name[1])   
+print(name[0])
+
+#tuple functions
+
+#length.tuple
+a=("apple")
+print(a)
+
+#max. tuple
+a=(23,45,56,78)
+print(a(max))
+
+#min tuple
+a=(23,45,56,78)
+print(a(min))
+
+#seq of tuple
+b=[2,3,5,4,6,7]
+print(tuple(b))
+
+b=("DRINKING WATER")
+Print(tuple(b))
+
+#sum of tuples
+a=str("23","34")
+b=("apple")
+print(sum(a+b))
+
+#sorted of tuples
+a=("a","d","b","c","z","w")
+print(sorted(a))
+
+
